@@ -1,7 +1,7 @@
 import os
 
-STOREMGMT_SECRET_KEY = os.environ.get('STOREMGMT_SECRET_KEY')
-STOREMGMT_DEBUG_VALUE = os.environ.get('STOREMGMT_DEBUG_VALUE')
+SECRET_KEY = os.environ.get('SECRET_KEY')
+DEBUG_VALUE = os.environ.get('DEBUG_VALUE')
 
 print(STOREMGMT_SECRET_KEY)
 print(STOREMGMT_DEBUG_VALUE)
